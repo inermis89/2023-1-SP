@@ -12,7 +12,7 @@ format:
       buttons: false
     preview-links: true
     theme: ../../../template/metropolis.scss 
-    logo: /logo/logo2.png
+    logo: logo/logo2.png
     footer: 스타트업 창업 프로젝트
 ---
 
