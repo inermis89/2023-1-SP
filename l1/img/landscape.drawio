@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="RI-zubKXD9wLyocKcL9s" name="Page-1">
+        <mxGraphModel dx="470" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="관찰" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="480" y="80" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="인터뷰" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="200" y="80" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="로그" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="340" y="280" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="설문" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="340" y="180" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="데스크 리서치" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="340" y="80" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="행동" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="520" y="36" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="언어" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="240" y="36" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="정량" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="150" y="305" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="정성" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="150" y="105" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=-0.054;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.121;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" source="8" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="360" y="240" as="sourcePoint"/>
+                        <mxPoint x="410" y="190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.471;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.121;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170.00000000000003" y="135.66" as="sourcePoint"/>
+                        <mxPoint x="403" y="135.00000000000003" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
