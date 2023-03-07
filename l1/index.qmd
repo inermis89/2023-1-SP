@@ -5,8 +5,7 @@ author: Minseop Lee(Gachon Cocone School, Gachon University)
 date: ''
 format:
   revealjs: 
-    slide-number: true
-    show-slide-number: speaker
+    slide-number: false
     # scrollable: true
     chalkboard: 
       buttons: false
@@ -36,7 +35,7 @@ format:
 
 ## Publications
 
-- 인간 독특성에 대하여(2015, 서울대 석사학위 논문)
+- 인간 독특성의 진화(2015, 서울대 석사학위 논문)
 
 - Lee, M. S., & Jang, D. (2017). The Limit of Gene-Culture Co-evolutionary Theory. *Korean Journal of Cognitive Science*, *28*(3), 173-191.ISO 690
 
@@ -469,9 +468,9 @@ ChatGPT의 시대에 기술을 잘 활용하면 리서치를 효율적으로 할
 :::
 
 ::: {.column}
-![](https://upload.wikimedia.org/wikipedia/commons/f/f9/Misusestatistics_0001.png){width="300"}
+![](https://upload.wikimedia.org/wikipedia/commons/f/f9/Misusestatistics_0001.png){width="250"}
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Improperly_scaled_picture_graph.svg/350px-Improperly_scaled_picture_graph.svg.png){width="300"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Improperly_scaled_picture_graph.svg/350px-Improperly_scaled_picture_graph.svg.png){width="250"}
 :::
 :::
 
@@ -722,7 +721,7 @@ ChatGPT의 시대에 기술을 잘 활용하면 리서치를 효율적으로 할
 ##### 예시1) "스마트폰을 가지고 계십니까?" 
 1) 예 2) 아니오
 
-##### "가장 좋아하는 TV방송국은 어디입니가?"
+##### "가장 좋아하는 TV방송국은 어디입니까?"
 1) KBS 2) MBC 3) SBS (❌)
 
 ##### 예시2) "스마트폰을 사용하신지 얼마나 되셨습니까?"
