@@ -1,0 +1,263 @@
+---
+title: "스타트업 투자와 재무" 
+subtitle: "유용한 기초지식"
+author: Minseop Lee(Gachon Cocone School, Gachon University)
+date: ''
+format:
+  revealjs: 
+    slide-number: true
+    # scrollable: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: ../../../template/metropolis.scss 
+    logo: logo/logo2.png
+    footer: 스타트업 창업 프로젝트
+---
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**스타트업에서 투자란?**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**스타트업의 성장과정**
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**성장이냐 내실이냐**
+:::
+
+
+# 주식의 종류
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**비상장 vs 상장**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**보통주 vs 종류주**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**상환전환우선주**
+:::
+
+
+## 상환전환우선주
+
+- Redeemable Convertible Preferred Stock
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**기업가치**<br>
+무엇에 필요한가?<br>
+과거, 현재, 미래
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**지분희석이란?**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**재무적 투자자 vs 전략적 투자자**
+:::
+
+## 재무적 투자자 vs 전략적 투자자
+
+- 재무적 투자자(FI)
+    - 투자한 기업이 크게 성장하여 기업가치가 높아지면, 적절한 시점에 투자금을 회수하여 수익을 얻는 것을 주목적으로 하는 투자자. 일반적인 개인 투자자나 VC, 그리고 일반 금융기 관 등 대부분의 투자자가 여기에 해당
+- 전략적 투자자(SI)
+    - 전략적 투자 목적으로 가볍게는 시장 동향을 파악하기 위한 것부터 기존 사업과 전략적 시너지를 모색하거나, 신기술 확보/신사업 발굴까지 여러 경우가 있음.
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**투자단계별 투자기관**
+:::
+
+
+
+## 투자단계별 투자기관
+
+:::{.columns}
+:::{.column}
+![](img/investor1.png)
+:::
+:::{.column}
+![](img/investor2.png)
+:::
+:::
+
+
+## VC 와 AC
+
+- 벤처캐피탈(Venture Capital, 이하 VC) : 혁신적인 요소를 갖추고 장래성이 있으나 매출과 담보 부족으로 자금 조달이 힘든 스타트업에 주로 투자하는 기업이나 기업의 자본을 의미함. 이러한 투자는 위험은 높지만 성공 시에 무척 큰 수익을 얻을 수 있는 모험 자본 성격이 강함.
+
+- 액셀러레이터(Accelerator) : 초기 스타트업에 투자와 함께 종합적인 조력을 통해 스타트업의 성장을 가속화하는 기업을 뜻함. 최근에는 초기 단계의 VC가 엑셀러레이터와 유사한 시드 단계에서 투자를 진행하기도 하고, 간혹 별도의 조력 프로그램을 운영하기도 함. 그리고 액셀러레이터가 초기 단계의 VC와 비슷한 규모의 자금을 투자하기도 하고, 조력보다 투자에 좀 더 집중하는 경우도 있음. 따라서 초기 단계의 VC와 액셀러레이터 간 경계가 일부 허물어진 편임
+
+
+
+# 재무제표
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**자산 vs 자본**
+:::
+ 
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**자본 vs 부채**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**자본**<br>
+주주로부터 조달된 자금을 말한다. 다른말로는 순자산이나 자기자본이라고도 한다
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**자산 = 자본 + 부채**
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**유동자산 vs 비유동자산**
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**자본잠식이란?**<br>
+완전, 부분
+:::
+
+# 손익계산서
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**매출 - 매출원가 = 매출총이익**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**매출총이익 - 판매비 및 관리비 = 영업이익**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**매출 - 고정비 - 변동비 = 영업이익**
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**감가상각비** 
+<br>
+매출원가, 판관비
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**영업이익 - 영업외수익(비용) = 경상이익**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**경상이익 - 세금 = 당기순이익(손실)**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 200px; font-size: 50px;"}
+**EBITDA**<br>
+Earnings Before Interest, Taxes, Depreciation and Amortization<br>
+이자, 세금 미지급 및 감가상각 전 영업이익<br>
+**영업이익 + 감가상각비**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**매출 - 고정비 - 변동비 = 영업이익**
+:::
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**공헌이익** 
+매출 - 변동비 = 영업이익 + 고정비
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**손익분기점**<br>
+기존 기업, 스타트업
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**손익계산서와 재무제표의 연결**
+:::
+
+
+---
+
+::: {.r-stack style="margin-top: 250px; font-size: 50px;"}
+**상환전환우선주의 성격**
+:::
+
+
+
+## 사례를 통한 복습
+
+- 자본금 1억으로 주식 10만주 발행(액면가 1000원)하여 법인 설립
+- 1년 후 현재 한 VC로부터 포스트머니밸류 50억으로 산정하고 5억 투자
+    - 기존 창업팀(혹은 창업자)과 VC의 지분 비율은?
+    - 투자시 기업의 프리머니 밸류는?
+    - 상환전환우선주로 신주발행했을때, 기업이 받게 될 주식의 총량은?
+    - (advanced) 투자 후 기업의 자본금은?
+
+
+
+

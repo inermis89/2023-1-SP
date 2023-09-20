@@ -5,12 +5,14 @@
 <script src="10_files/libs/quarto-html/popper.min.js"></script>
 <script src="10_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="10_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="10_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="10_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="10_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.335">
+  <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Gachon Cocone School">
-  <title>GCS Onboarding</title>
+  <meta name="dcterms.date" content="2023-09-04">
+  <title>GCS 학기제 3기 전체 Orientation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -25,11 +27,11 @@
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
       width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="10_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="10_files/libs/revealjs/dist/theme/quarto.css">
   <link href="10_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="10_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="10_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -74,44 +76,44 @@
     font-weight: 400;
   }
 
-  .callout.callout-captioned.callout-style-simple .callout-body {
+  .callout.callout-titled.callout-style-simple .callout-body {
     margin-top: 0.2em;
   }
 
-  .callout:not(.callout-captioned) .callout-body {
+  .callout:not(.callout-titled) .callout-body {
       display: flex;
   }
 
-  .callout:not(.no-icon).callout-captioned.callout-style-simple .callout-content {
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
     padding-left: 1.6em;
   }
 
-  .callout.callout-captioned .callout-header {
+  .callout.callout-titled .callout-header {
     padding-top: 0.2em;
     margin-bottom: -0.2em;
   }
 
-  .callout.callout-captioned .callout-caption  p {
+  .callout.callout-titled .callout-title  p {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
   }
     
-  .callout.callout-captioned.callout-style-simple .callout-content  p {
+  .callout.callout-titled.callout-style-simple .callout-content  p {
     margin-top: 0;
   }
 
-  .callout.callout-captioned.callout-style-default .callout-content  p {
+  .callout.callout-titled.callout-style-default .callout-content  p {
     margin-top: 0.7em;
   }
 
-  .callout.callout-style-simple div.callout-caption {
+  .callout.callout-style-simple div.callout-title {
     border-bottom: none;
     font-size: .9rem;
     font-weight: 600;
     opacity: 75%;
   }
 
-  .callout.callout-style-default  div.callout-caption {
+  .callout.callout-style-default  div.callout-title {
     border-bottom: none;
     font-weight: 600;
     opacity: 85%;
@@ -143,7 +145,7 @@
     background-size: 0.9rem 0.9rem;
   }
 
-  .callout-caption {
+  .callout-title {
     display: flex
   }
     
@@ -156,16 +158,16 @@
     display: none !important;
   }
 
-  .callout.callout-captioned .callout-body > .callout-content > :last-child {
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
     margin-bottom: 0.5rem;
   }
 
-  .callout.callout-captioned .callout-icon::before {
+  .callout.callout-titled .callout-icon::before {
     margin-top: .5rem;
     padding-right: .5rem;
   }
 
-  .callout:not(.callout-captioned) .callout-icon::before {
+  .callout:not(.callout-titled) .callout-icon::before {
     margin-top: 1rem;
     padding-right: .5rem;
   }
@@ -180,7 +182,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
   }
 
-  div.callout-note.callout-style-default .callout-caption {
+  div.callout-note.callout-style-default .callout-title {
     background-color: #dae6fb
   }
 
@@ -192,7 +194,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
   }
 
-  div.callout-important.callout-style-default .callout-caption {
+  div.callout-important.callout-style-default .callout-title {
     background-color: #f7dddc
   }
 
@@ -204,7 +206,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-warning.callout-style-default .callout-caption {
+  div.callout-warning.callout-style-default .callout-title {
     background-color: #fcefdc
   }
 
@@ -216,7 +218,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
   }
 
-  div.callout-tip.callout-style-default .callout-caption {
+  div.callout-tip.callout-style-default .callout-title {
     background-color: #ccf1e3
   }
 
@@ -228,7 +230,7 @@
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
   }
 
-  div.callout-caution.callout-style-default .callout-caption {
+  div.callout-caution.callout-style-default .callout-title {
     background-color: #ffe5d0
   }
 
@@ -326,8 +328,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">GCS Onboarding</h1>
-  <p class="subtitle">2023-1 창업학기제 운영 방식 소개</p>
+  <h1 class="title">GCS 학기제 3기 전체 Orientation</h1>
+  <p class="subtitle">2023-2 창업학기제 운영 방식 소개</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -337,20 +339,21 @@ Gachon Cocone School
 </div>
 </div>
 
+  <p class="date">2023-09-04</p>
 </section>
 <section>
-<section id="gcs-onboarding" class="title-slide slide level1 center">
-<h1>GCS onboarding</h1>
+<section id="gcs-학기제-3기-orientation" class="title-slide slide level1 center">
+<h1>GCS 학기제 3기 Orientation</h1>
 
 </section>
 <section id="순서" class="slide level2">
 <h2>순서</h2>
 <ul>
-<li>환영인사(장대익 학장님)</li>
-<li>교원 및 운영진 소개</li>
-<li>창업학기제 진행 방식 소개</li>
-<li>GCS 활용법</li>
-<li>각 수업 Orientation</li>
+<li>GCS 소개</li>
+<li>학기제 일정 소개</li>
+<li>각 수업 소개</li>
+<li>그 외 행사 소개</li>
+<li>커뮤니케이션 방법</li>
 </ul>
 </section>
 <section class="slide level2">
@@ -360,106 +363,280 @@ Gachon Cocone School
 </div>
 </section></section>
 <section>
-<section id="학기-진행-방식" class="title-slide slide level1 center">
-<h1>학기 진행 방식</h1>
+<section id="gcs-소개" class="title-slide slide level1 center">
+<h1>GCS 소개</h1>
 
 </section>
-<section id="학기-진행-방식-1" class="slide level2">
-<h2>학기 진행 방식</h2>
+<section id="gcs-소개-1" class="slide level2">
+<h2>GCS 소개</h2>
 <ul>
-<li>6개의 수업이 행정적으로 시간표를 가지고 있으나 유기적으로 재구성하여 운영할 예정</li>
-<li>시간표를 유기적으로 재구성하였으나 평가는 각 수업 담당 교수님이 독립적으로 진행</li>
-<li>수업 외에도 창업교육 및 지원과 관련한 다양한 행사들을 진행할 수 있음.</li>
+<li>환영사</li>
+<li>GCS 미션/비전과 GCS 커뮤니티</li>
+<li>교원 소개</li>
+<li>운영팀 소개</li>
+<li>공간 소개</li>
 </ul>
 </section></section>
-<section id="전체-커리큘럼" class="title-slide slide level1 center">
-<h1>전체 커리큘럼</h1>
-
-</section>
-
 <section>
-<section id="주요-일정" class="title-slide slide level1 center">
-<h1>주요 일정</h1>
+<section id="환영사" class="title-slide slide level1 center">
+<h1>환영사</h1>
 
 </section>
-<section id="phase-1-아이디어-발굴-단계123주차-총-3주" class="slide level2">
-<h2>Phase 1, 아이디어 발굴 단계(1,2,3주차, 총 3주)</h2>
+<section id="gcs-미션" class="slide level2">
+<h2>GCS 미션</h2>
+<div class="r-stack" style="margin-top: 250px; font-size: 50px;">
+<p>창업으로 <strong>세상을 바꾸는</strong> 새로운 길 <br> <strong>인간 본성</strong>이 깃든 창업 <strong>공동체</strong></p>
+</div>
+</section>
+<section id="gcs-비전" class="slide level2">
+<h2>GCS 비전</h2>
+<div class="r-stack" style="margin-top: 250px; font-size: 50px;">
+<p><strong>ㄸㄸㄸㄸ</strong></p>
+</div>
+</section>
+<section id="gcs-비전-1" class="slide level2">
+<h2>GCS 비전</h2>
+<div class="r-stack" style="margin-top: 250px; font-size: 50px;">
+<p><strong>따뜻</strong>하고, <strong>똑똑</strong>한 <br> 기업가와 기업을 길러낸다!</p>
+</div>
+</section>
+<section id="gcs-커뮤니티" class="slide level2">
+<h2>GCS 커뮤니티</h2>
+
+<img data-src="img/Vision.png" class="r-stretch"></section>
+<section id="교원-소개" class="slide level2">
+<h2>교원 소개</h2>
 <ul>
-<li>개인이 창업자로서 아이디어 검증을 해보는 단계</li>
-<li>1주차 : 아이디어 마켓 관련 안내
+<li>전임교원
 <ul>
-<li>개인의 아이디어 검증 사례를 가지고 아이디어 마켓에 내놓을 상품을 만드는 시간</li>
+<li>장대익 학장</li>
+<li>최재홍 교수</li>
 </ul></li>
-<li>3/6(월) 16:00 ~ : 2기 입학식</li>
+<li>초빙교원
+<ul>
+<li>이민섭 초빙교수</li>
+<li>심혜린 초빙교수</li>
+<li>박준영 초빙교수</li>
+<li>김용재 초빙교수</li>
+<li>김형진 초빙교수</li>
+</ul></li>
 </ul>
 </section>
-<section id="phase-2-팀빌딩-및-설득-단계456주차-총-3주" class="slide level2">
-<h2>Phase 2, 팀빌딩 및 설득 단계(4,5,6주차, 총 3주)</h2>
+<section id="운영팀-소개" class="slide level2">
+<h2>운영팀 소개</h2>
 <ul>
-<li>아이디어 마켓을 바탕으로 팀을 이루고 화합을 다지는 단계</li>
-<li>4주차 : 아이디어 마켓 및 팀빌딩 관련 안내</li>
-<li>5주차 : 팀빌딩 1차 마감</li>
-<li>6주차 : GCS MT(4/6(목) ~ 4/7(금), 1박 2일)</li>
+<li>장윤석 과장</li>
+<li>이미솔 직원</li>
+<li>신상민 직원</li>
+<li>박성한 직원</li>
+<li>류호현 조교</li>
+</ul>
+</section>
+<section id="gcs-공간소개" class="slide level2">
+<h2>GCS 공간소개</h2>
+<ul>
+<li>Creative Workspace(North)
+<ul>
+<li>학기제와 대학원생을 위한 공간</li>
+<li>회의와 프로젝트에 적합한 공간</li>
+</ul></li>
+<li>Open Office(South)
+<ul>
+<li>학부제 진학 학생 팀을 위한 공간</li>
+<li>업무에 적합한 공간, 법인 설립 전에도 활용 가능</li>
+<li>현재 10팀 29명 사용 중</li>
+</ul></li>
+<li>기업 전용 공간
+<ul>
+<li>법인설립한 팀 중 별도 선발예정</li>
+</ul></li>
+</ul>
+</section>
+<section id="creative-workspacenorth" class="slide level2">
+<h2>Creative Workspace(North)</h2>
+
+<img data-src="img/CW1.jpeg" class="r-stretch"></section>
+<section id="creative-workspace" class="slide level2">
+<h2>Creative Workspace</h2>
+
+<img data-src="img/CW2.jpeg" class="r-stretch"></section>
+<section id="creative-workspace-1" class="slide level2">
+<h2>Creative Workspace</h2>
+
+<img data-src="img/CW3.jpeg" class="r-stretch"></section>
+<section id="creative-workspace-2" class="slide level2">
+<h2>Creative Workspace</h2>
+
+<img data-src="img/CW4.jpeg" class="r-stretch"></section>
+<section id="open-officesouth" class="slide level2">
+<h2>Open Office(South)</h2>
+
+<img data-src="img/OO.jpeg" class="r-stretch"></section>
+<section id="기업-전용-공간" class="slide level2">
+<h2>기업 전용 공간</h2>
+
+<img data-src="img/BO.jpg" class="r-stretch"></section>
+<section id="gcs-공간-사용시-주의사항" class="slide level2">
+<h2>GCS 공간 사용시 주의사항🚨</h2>
+<ul>
+<li>⏰ 별도의 허용이 없는 한 공간 이용시간은 매일 08-23시까지!
+<ul>
+<li>안전사고 등 관리의 어려움</li>
+<li>2기 때 09 ~ 22시 운영에서 08 ~ 23시로 확대</li>
+</ul></li>
+<li>🙅‍♂️ 학기제 동기, 학부제 선배, 대학원생, 교원, 운영팀이 함께 쓰는 공간으로 타인에게 피해를 주는 행위는 삼가주세요!(지나치게 큰 소음발생, 배달음식 취식(가벼운 간식은 허용됨), 취침이나 누워있는 등 방만한 모습, 뒷정리 결여)</li>
+<li>🔌 주인의식을 가지고 마지막에 나가게 되면 냉난방기와 조명을 꺼주세요!</li>
+</ul>
+</section></section>
+<section>
+<section id="학기제-일정-소개" class="title-slide slide level1 center">
+<h1>학기제 일정 소개</h1>
+
+</section>
+<section id="학기제-일정-소개-1" class="slide level2">
+<h2>학기제 일정 소개</h2>
+
+<img data-src="img/empathy_innovation.png" class="r-stretch"></section>
+<section id="학기제-일정-소개-2" class="slide level2">
+<h2>학기제 일정 소개</h2>
+<ul>
+<li>몰입단계 : 아이디어톤</li>
+<li>공감단계 : 아이디어마켓, 공감캠프(MT), 팀빌딩</li>
+<li>혁신단계 : 최종성과발표회</li>
+</ul>
+</section>
+<section id="학기제-일정-소개-3" class="slide level2">
+<h2>학기제 일정 소개</h2>
+
+<img data-src="img/%E2%80%8Epre_entrepreneurs.jpeg" class="r-stretch"></section>
+<section id="몰입단계" class="slide level2">
+<h2>몰입단계</h2>
+<ul>
+<li>목적 : 진수(進水)
+<ul>
+<li>줄을 끊고 물에 띄운 뒤 여러가지 집중적으로 테스트를 해보는 기간</li>
+<li>창업활동과 GCS 학기제에서 어떤 목표를 달성해야 하는지 명확히하고 몰입함으로써 학기제에 적응하는 기간</li>
+</ul></li>
+<li>기간 : 9.4(월) ~ 9.13(수)(10일 간)</li>
+<li>주요행사 : 아이디어톤</li>
+</ul>
+</section>
+<section id="몰입단계-1" class="slide level2">
+<h2>몰입단계</h2>
+
+<img data-src="img/%E1%84%86%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%83%E1%85%A1%E1%86%AB%E1%84%80%E1%85%A8.png" class="r-stretch"></section>
+<section id="아이디어톤" class="slide level2">
+<h2>아이디어톤</h2>
+
+<img data-src="img/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B5%E1%84%8B%E1%85%A5%E1%84%90%E1%85%A9%E1%86%AB%20%E1%84%92%E1%85%A9%E1%86%BC%E1%84%87%E1%85%A9%E1%84%89%E1%85%B5%E1%84%8B%E1%85%A1%E1%86%AB.png" class="r-stretch"></section>
+<section id="아이디어톤-1" class="slide level2">
+<h2>아이디어톤</h2>
+<ul>
+<li>7개 팀으로 진행하고 팀당 10분이내 PPT 형식으로 아이디어 발표!</li>
+<li>발표후 심사위원과 청중의 질문 5분!</li>
+<li>창업 교육 생태계에 대한 밀도 있는 조사와 가천대 및 대학생들에 대한 실증적인 조사를 기반으로 목표를 달성하기 위해 해볼 수 있는 창의적인 아이디어를 발전시킬 것!</li>
+</ul>
+</section>
+<section id="아이디어톤-과제" class="slide level2">
+<h2>아이디어톤 과제</h2>
+<ul>
+<li>평가
+<ul>
+<li>1,2기 학부제 학생들이 심사위원으로 참여하여 익명으로 평가</li>
+</ul></li>
+<li>아이디어톤 1위팀 Reward
+<ul>
+<li>원하는 GCS 교수님과 언제든 맛있는 점심을 먹을 수 있는 기회</li>
+</ul></li>
+</ul>
+</section>
+<section id="아이디어톤-조구성" class="slide level2">
+<h2>아이디어톤 조구성</h2>
+<ul>
+<li>1조,이지현,우세영,우승민,박준하</li>
+<li>2조,조서현,김동현,이주원,원요한</li>
+<li>3조,강예은,이진혁,정민서,조은영</li>
+<li>4조,고도현,전은섭,강관규,김현수</li>
+<li>5조,김현우,송란희,이태희,박기홍</li>
+<li>6조,윤현승,안형욱,박수민,서한결</li>
+<li>7조,염혜인,강유찬,우화민,송현</li>
+</ul>
+</section>
+<section id="공감단계" class="slide level2">
+<h2>공감단계</h2>
+<ul>
+<li>팀과 고객에 깊이 공감하라!</li>
+<li>각 수업 과제 등을 통해서 지속적으로 다른 팀원들과 팀프로젝트 기회를 만들 예정.</li>
+<li>주요행사
+<ul>
+<li>아이디어 마켓</li>
+<li>공감캠프(MT)</li>
+<li>팀빌딩 완료</li>
+</ul></li>
 </ul>
 </section>
 <section id="아이디어-마켓" class="slide level2">
-<h2>아이디어 마켓*</h2>
+<h2>아이디어 마켓</h2>
 <ul>
-<li>3/22(수) 11:00 ~ 18:00</li>
-<li>2기 학생 개인이 자신이 관심있는 아이디어를 각자 검증해보고 검증결과를 바탕으로 아이디어 마켓에 내놓는 과정</li>
-<li>가장 저렴하게 많은 아이디어를 검증하고 고객으로부터 의미있는 데이터를 얻었는지를 가지고 개인 평가 진행 예정(자세한 사항은 2주차에 공지)</li>
+<li>10월 31일(화) 11:00~</li>
+<li>팀을 이루어 창업 아이디어가 사업화 할만한 아이템인지를 서비스를 기획하고 만들기 이전에 검증해보는 단계</li>
 </ul>
 </section>
-<section id="팀빌딩" class="slide level2">
-<h2>팀빌딩</h2>
+<section id="공감캠프mt" class="slide level2">
+<h2>공감캠프(MT)</h2>
 <ul>
-<li>아이디어 마켓에서 나온 아이디어를 바탕으로 팀원들을 설득하고 팀을 구성하는 단계</li>
-<li>별도의 형식은 없고 수업 외 시간에 많이 만나고 이야기 나누는 시간을 가질 것</li>
-<li>1차 팀빌딩 마감 기한 3/31(금)</li>
+<li>일시 : 11월 2일(목) ~ 11월 3일(금)(1박 2일)</li>
+<li>장소 : 곤지암리조트(잠정)</li>
+<li>최종 팀빌딩 이전 학기제 동기와 교원들이 단합을 하기 위한<br>
+프로그램을 운영할 예정</li>
 </ul>
+<p><img data-src="img/MT.png" height="300"></p>
 </section>
-<section id="mt" class="slide level2">
-<h2>MT!</h2>
+<section id="팀빌딩-1110까지" class="slide level2">
+<h2>팀빌딩( ~ 11/10까지)</h2>
 <ul>
-<li>4월 6일(목) ~ 4월 7일(금) 1박 2일 서울 근교</li>
-<li>1차 팀빌딩을 마친 후 2기 학생과 운영진이 함께 하는 MT</li>
-<li>팀빌딩/리더십에 관한 강의 및 단합을 도모할 수 있는 각종 프로그램 진행 예정</li>
-</ul>
-</section>
-<section id="phase-3-아이디어-고도화-단계789101112주차-총-6주" class="slide level2">
-<h2>Phase 3, 아이디어 고도화 단계(7,8,9,10,11,12주차, 총 6주)</h2>
+<li>팀빌딩 규칙
 <ul>
-<li>팀을 이뤄 아이디어를 발전시키는 단계</li>
-<li>9주차 : 1차 팀발표(중간발표), 2차 아이디어 마켓</li>
-<li>10주차 : 팀조정 마감(2차 팀빌딩)</li>
-<li>12주차 : 2차 팀발표(중간발표)</li>
-</ul>
-</section>
-<section id="중간발표" class="slide level2">
-<h2>중간발표</h2>
-<ul>
-<li>4/27(목) 15:00 ~ : 1차 팀발표 및 아이디어 마켓 2차
-<ul>
-<li>팀을 이뤄서 아이디어를 발전시킨 팀은 중간발표를 진행하고 1차 아이디어 마켓에서 검증기간이 오래걸리는 아이템을 잡아서 완결이 안난 경우이거나 아이템을 바꿔서 다시 검증을 한 경우 아이디어 마켓을 한번 더 진행</li>
+<li>팀인원은 3~5인으로 제한함.</li>
+<li>최종 팀세팅이 완료된 수 최종성과발표회에 이르기까지 해당팀이 유지되어야 함.</li>
+<li>학기제 수료 이후에 팀을 바꾸는 것은 문제 없음.</li>
 </ul></li>
-<li>5/5(금) : 팀조정 마감(2차 팀빌딩)</li>
-<li>5/17(수) : 2차 팀발표</li>
 </ul>
 </section>
-<section id="phase-4-최종-발표-단계131415주-총-3주" class="slide level2">
-<h2>Phase 4, 최종 발표 단계(13,14,15주, 총 3주)</h2>
+<section id="혁신단계" class="slide level2">
+<h2>혁신단계</h2>
 <ul>
-<li>최종 발표를 준비하는 단계</li>
-<li>13주차 : 최종 발표 안내</li>
-<li>15주차 : 최종 발표</li>
+<li>더 단단하게(team), 더 빠르게(product)!</li>
+<li>주요행사
+<ul>
+<li>최종성과발표회</li>
+</ul></li>
 </ul>
 </section>
-<section id="최종발표pitching-day" class="slide level2">
-<h2>최종발표(Pitching Day)*</h2>
+<section id="최종성과발표회" class="slide level2">
+<h2>최종성과발표회</h2>
 <ul>
-<li>15주차에 시행 예정(날짜는 추후 확정)</li>
-<li>GCS 교원 및 창업가 선배, VC 초청하여 사업계획서 발표</li>
-<li>평가 기준은 13주차에 안내 예정</li>
+<li>12월 중순(미정)</li>
+</ul>
+<p><img data-src="img/gcsd.png" height="400"></p>
+</section>
+<section id="학기제-지원" class="slide level2">
+<h2>학기제 지원</h2>
+<ul>
+<li>학기제 동안 팀프로젝트 지원금 1인당 10만원</li>
+<li>학기제 수료후 수료생에게 창업활동장려금 100만원 일괄 지급</li>
+</ul>
+</section>
+<section id="학기제-이후" class="slide level2">
+<h2>학기제 이후</h2>
+<ul>
+<li>수료생에 한하여 학부제 진학을 선택할 수 있음.</li>
+<li>학부제 진학이후
+<ul>
+<li>창업-P 및 특화 전공과목(창업심화세미나)으로 지속적인 멘토링</li>
+<li>창업을 위한 보육공간 제공(Open office, 기업공간 정식 입주)</li>
+<li>코코네 창업투자지원심사 라운드(분기 1회 시행)</li>
+</ul></li>
 </ul>
 </section>
 <section class="slide level2">
@@ -469,84 +646,188 @@ Gachon Cocone School
 </div>
 </section></section>
 <section>
-<section id="각-수업-orientation" class="title-slide slide level1 center">
-<h1>각 수업 Orientation</h1>
+<section id="각-수업-소개" class="title-slide slide level1 center">
+<h1>각 수업 소개</h1>
 
 </section>
-<section id="각-수업-orinetation" class="slide level2">
-<h2>각 수업 Orinetation</h2>
+<section id="각-수업-소걔" class="slide level2">
+<h2>각 수업 소걔</h2>
 <ul>
-<li>일정은 앞선 전체 일정에 따라 진행할 예정</li>
-<li>수업에 활용할 도구들</li>
-<li>각 수업 및 전체 공지 : 카카오워크</li>
-<li>GCS 커뮤니티 : 디스코드(커뮤티니 운영 규칙 수립 중, 학생의견 수합하여 3월 중 오픈)</li>
-</ul>
-</section>
-<section id="각-수업-ot-순서" class="slide level2">
-<h2>각 수업 OT 순서</h2>
-<ul>
-<li>스타트업 창업 프로젝트</li>
-<li>기업가 정신과 창업</li>
+<li>기업가정신과 창업</li>
+<li>스타트업 창업프로젝트</li>
 <li>인간본성의 과학적 이해</li>
 <li>UX와 서비스 기획</li>
 <li>스타트업 실전 마케팅</li>
 <li>창업주제세미나</li>
 </ul>
 </section>
-<section id="스타트업-창업-프로젝트" class="slide level2">
-<h2>스타트업 창업 프로젝트</h2>
+<section id="각-수업-소개-1" class="slide level2">
+<h2>각 수업 소개</h2>
+
+<img data-src="img/%E2%80%8Ecourses.jpeg" class="r-stretch"></section>
+<section id="기업가정신과-창업" class="slide level2">
+<h2>기업가정신과 창업</h2>
 <ul>
-<li>담당 : 심혜린, 이민섭</li>
-<li>창업학기제의 중심이 되는 과목</li>
-<li>아이디어 검증, 팀빌딩, 팀발표 등의 활동을 진행하고 창업활동에 꼭 필요한 내용들을 배우는 과목</li>
+<li>GCS만의 독특한 기업가 정신을 함양하는 수업이자 자신만의 기업가 정신을 정립하는 것이 목표인 수업</li>
+<li>GCS 설립자이신 천양현 회장님의 강연과 창업씬에서도 특히 모시기 힘든 분들의 독특한 인사이트를 얻을 수 있음.</li>
+<li>담당교수 : 최재홍, 장대익</li>
 </ul>
 </section>
-<section id="기업가-정신과-창업" class="slide level2">
-<h2>기업가 정신과 창업</h2>
+<section id="스타트업-창업프로젝트" class="slide level2">
+<h2>스타트업 창업프로젝트</h2>
 <ul>
-<li>담당 : 장대익</li>
-<li>천양현 회장님을 비롯하여 국내 기업인들을 대상으로 특강 형식으로 진행</li>
-<li>다양한 기업가들의 이야기를 직접 듣고 자신만의 기업가 정신에 대해 정립하는 수업</li>
+<li>GCS 학기제의 뼈대가 되는 프로젝트 과목</li>
+<li>아이디어를 생성하고 팀을 이뤄 아이디어를 발전시키고 MVP를 만들게 되는 창업 과정</li>
+<li>수업 안에 인간본성의 과학적 이해, UX와 서비스기획 그리고 스타트업 실전마케팅 세 수업의 융합 수업이 총 3차례 있는 것이 Unique point</li>
+<li>담당교수 : 이민섭, 박준영, 심혜린</li>
 </ul>
 </section>
 <section id="인간본성의-과학적-이해" class="slide level2">
 <h2>인간본성의 과학적 이해</h2>
 <ul>
-<li>담당 : 이민섭</li>
-<li>인간본성에 대해 과학적으로 이해하는 기업가를 육성하고자 하는 GCS의 독특한 교육 목표를 달성하기 위한 과목</li>
+<li>인간 본성에 호기심을 불러일으켜서 팀과 고객의 마음과 행동을 과학적으로 이해하는 기업가를 육성하고자 하는 GCS의 독특한 교육 목표를 달성하기 위한 과목</li>
 <li>자연, 인간, 사회, 그리고 인간이 만들어낸 문화와 기술에 대해 진화학적 관점에서 접근할 예정</li>
+<li>담당교수 : 이민섭, 장대익</li>
 </ul>
 </section>
 <section id="ux와-서비스-기획" class="slide level2">
 <h2>UX와 서비스 기획</h2>
 <ul>
-<li>담당 : 심혜린</li>
+<li>기획자가 아니라 사용자의 관점에서 사랑받는 서비스를 만들기 위해 알아야하는 필수 교과목</li>
+<li>담당교수 : 심혜린</li>
 </ul>
 </section>
-<section id="스타트업-실전-마케팅" class="slide level2">
-<h2>스타트업 실전 마케팅</h2>
+<section id="스타트업-실전마케팅" class="slide level2">
+<h2>스타트업 실전마케팅</h2>
 <ul>
-<li>담당 : 박준영</li>
+<li>한정된 자원을 가진 창업팀이 고객, 시장, 브랜드를 이해하고 데이터를 기반으로 적합한 마케팅 전략을 배우는 교과목</li>
+<li>담당교수 : 박준영</li>
 </ul>
 </section>
 <section id="창업주제세미나" class="slide level2">
 <h2>창업주제세미나</h2>
 <ul>
-<li>담당 : 장대익, 심혜린, 이민섭, 박준영</li>
-<li>창업과 관련된 기술 트렌드에 대해 학생과 교원이 함께 조사하고 심도 있게 토론해보는 시간</li>
-<li>특강 + 학생발표 등으로 수업이 진행될 예정</li>
-<li>주제: AI, Blockchain, Metaverse, 헬스케어 및 의료 등</li>
+<li>시기에 맞는 다양한 창업주제(ESG, AI, Web3 등)에 대한 시각을 넓혀주기 위한 수업.</li>
+<li>학기제 학생뿐만 아니라 GCS alumni 및 교원들이 다함께 배우는 자리!</li>
+<li>담당교수
+<ul>
+<li>장대익, 김용재, 김형진</li>
+</ul></li>
 </ul>
-</section>
-<section class="slide level2">
-
-<div class="r-stack" style="margin-top: 200px;">
-<p><img data-src="logo/loading2.svg" width="450"></p>
-</div>
 </section></section>
 <section>
-<section id="gcs-활용법행정" class="title-slide slide level1 center">
-<h1>GCS 활용법(행정)</h1>
+<section id="그-외-행사-소개" class="title-slide slide level1 center">
+<h1>그 외 행사 소개</h1>
+
+</section>
+<section id="그-외-행사-소개-1" class="slide level2">
+<h2>그 외 행사 소개</h2>
+<ul>
+<li>북티(북 &amp; 커뮤니티, 북(book) &amp; 티(tea))
+<ul>
+<li>한달에 1회, 창업 및 창업생태계와 관련하여 중요한 저자를 모셔 차와 함께 깊이 있는 이야기를 나누는 시간</li>
+</ul></li>
+<li>생성AI 심포지엄
+<ul>
+<li>10월, 12월 총 2회 예정</li>
+<li>1학기 주제 : 챗GPT와 교육혁명(1회), 챗GPT와 콘텐츠 혁명(2회)</li>
+<li>2학기 주제 : 챗GPT와 광고혁명(3회), 챗GPT와 헬스케어 혁명(4회)</li>
+</ul></li>
+<li><strong>코리아스타트업 포럼 주관 COMEUP X (11월 9일(목) 15:30 ~ 17:30, DDP)</strong>
+<ul>
+<li>GCS 프로그램(학생 발표 등 기회)</li>
+</ul></li>
+<li>기타(한일 국제 해커톤(12월 중) 등)</li>
+</ul>
+</section>
+<section id="학기제-일정-및-그-외-일정들에-대한-요구사항" class="slide level2">
+<h2>학기제 일정 및 그 외 일정들에 대한 요구사항🚨</h2>
+<ul>
+<li>점심시간이 공식적으로 14~15시로 되어 있으나 오전 수업을 13시 30분쯤 끝내서 식사를 할 수 있도록 할 예정</li>
+<li>학기제 일정은 6개의 수업 시간 외의 시간에 각자가 얼마나 시간을 쏟는지가 중요하기에 다른 수업은 물론 다른 활동을 병행하는 것은 어려움.</li>
+<li>또한 특강 일정의 변동으로 인해 기존 수업과 바뀌는 일이 발생할 수 있으므로 communication tool을 잘 확인할 의무가 있음.</li>
+<li>수업 외 시간에 이뤄지는 많은 행사들도 일차적으로 학기제 학생들을 위한 행사들이며 GCS 커뮤니티 활성화를 위해 수업에 준하게 반드시 참여를 요구함.</li>
+</ul>
+</section></section>
+<section>
+<section id="커뮤니케이션-방법" class="title-slide slide level1 center">
+<h1>커뮤니케이션 방법</h1>
+
+</section>
+<section id="커뮤니케이션-tool" class="slide level2">
+<h2>커뮤니케이션 tool</h2>
+<ul>
+<li>Slack</li>
+<li>Notion</li>
+<li>KakaoTalk team chat</li>
+<li>Discord</li>
+<li>멘토링/상담 예약 관리 시스템</li>
+</ul>
+</section>
+<section id="slack" class="slide level2">
+<h2>Slack</h2>
+
+<img data-src="img/slack.png" class="r-stretch"></section>
+<section id="slack-1" class="slide level2">
+<h2>Slack</h2>
+<ul>
+<li>용도
+<ul>
+<li>학기제 및 대학원 학생분들을 위한 수업관리 도구</li>
+</ul></li>
+<li>사용규칙
+<ul>
+<li>각 수업을 담당하는 교원이 수업채널에 수업 공지와 자료들을 올리고 수업과 관련된 토의나 논의를 자유롭게 진행</li>
+<li>수업별 공지와 수업자료를 올리면 꼭 수신확인을 위해 ✅ 녹색 체크표시를 reaction으로 남겨주세요!</li>
+</ul></li>
+</ul>
+</section>
+<section id="notion" class="slide level2">
+<h2>Notion</h2>
+
+<img data-src="img/notion.png" class="r-stretch"></section>
+<section id="notion-1" class="slide level2">
+<h2>Notion</h2>
+<ul>
+<li>용도
+<ul>
+<li>학기 중 일어나는 모든 수업 및 행사 일정을 관리</li>
+<li>역할별(학생, 교원, 운영)로 필요한 정보들을 모아서 보여줌</li>
+</ul></li>
+<li><a href="https://1000school.notion.site/Gachon-Cocone-School-c45c92f73c4f4dbb99b34ae8f8ad1e43?pvs=4">Notion 링크</a></li>
+</ul>
+</section>
+<section id="kakaotalk-team-chat" class="slide level2">
+<h2>KakaoTalk team chat</h2>
+
+<img data-src="img/kakaotalk.png" class="r-stretch"></section>
+<section id="kakaotalk-team-chat-1" class="slide level2">
+<h2>KakaoTalk team chat</h2>
+<ul>
+<li>용도
+<ul>
+<li>수업 혹은 행정관련하여 급한 전파사항이 있을때 활용</li>
+</ul></li>
+</ul>
+</section>
+<section id="discord" class="slide level2">
+<h2>Discord</h2>
+<ul>
+<li><p>지속적인 GCS 커뮤니티 유지를 위해 운영 중</p></li>
+<li><p>수업 및 행정상 급한 공지들은 이곳에서 다루지는 않을 예정!</p></li>
+<li><p><a href="https://discord.gg/xPRnVbgH">Discord 링크</a></p></li>
+</ul>
+</section>
+<section id="멘토링상담-예약-및-관리-시스템" class="slide level2">
+<h2>멘토링/상담 예약 및 관리 시스템</h2>
+<ul>
+<li>학기중 시스템을 만들 예정</li>
+<li>시스템이 만들어지기 전까지는 Slack DM이나 개인톡을 통해 요청</li>
+</ul>
+</section></section>
+<section>
+<section id="qa" class="title-slide slide level1 center">
+<h1>Q&amp;A</h1>
 
 </section>
 <section class="slide level2">
@@ -591,7 +872,7 @@ Gachon Cocone School
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":false},
 'smaller': false,
  
@@ -613,7 +894,7 @@ Gachon Cocone School
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -796,9 +1077,23 @@ Gachon Cocone School
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
       });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
       const clipboard = new window.ClipboardJS('.code-copy-button', {
-        target: function(trigger) {
-          return trigger.previousElementSibling;
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
         }
       });
       clipboard.on('success', function(e) {
@@ -846,7 +1141,7 @@ Gachon Cocone School
           },
           interactive: true,
           interactiveBorder: 10,
-          theme: 'quarto-reveal',
+          theme: 'light-border',
           placement: 'bottom-start'
         };
           config['offset'] = [0,0];

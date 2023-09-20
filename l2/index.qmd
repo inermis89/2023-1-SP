@@ -1,8 +1,8 @@
 ---
-title: "L2. XYZ 가설과 프리토타이핑" 
-subtitle: "아이디어 불패의 법칙"
+title: "창업 아이디어 원료 구하기" 
+subtitle: "진화의 원리와 아이디어 생성 방법"
 author: Minseop Lee(Gachon Cocone School, Gachon University)
-date: ''
+date: '2023-09-26'
 format:
   revealjs: 
     slide-number: false
@@ -702,3 +702,4 @@ B팀
 
 
 <!-- 매트릭스 기계 시온 파괴 건설 : 계속 쉬워지고 있다 -->
+
